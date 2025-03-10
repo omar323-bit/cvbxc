@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>نادي الجولف</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 100%;
+            max-width: 1000px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .packages {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .package {
+            background-color: #e9ecef;
+            margin: 10px;
+            padding: 15px;
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+<body style="padding-bottom: 70px">
+<header>
+    <h1>هول ان ون&nbsp;</h1>
+</header>
+
+<nav>
+    <a href="#packages">الحزم</a>
+    <a href="#package">الملاعب</a>
+    <a href="#packag">النوادي</a>
+    <a href="#package6">الفنادق</a>
+	<a href="#package7">المطاعم و المقاهي</a>
+	<a href="#servics">متجر</a><a href="#contact">اتصل بنا&nbsp;</a>
+</nav>
+
+<section id="about">
+    <h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;عن النادي</h2>
+    <p>نادي الجولف يضم ثلاثة ملاعب مخصصة لبطولات الجولف، بما في ذلك ملعب "سي فيو" الشهير. لدينا ناديان لإقامة المحترفين وزوارنا الكرام، بالإضافة إلى مجموعة متنوعة من المرافق المميزة.</p>
+</section>
+
+<section id="services">
+  <h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;الخدمات</h2>
+    <ul>
+        <li>ملعب "سي فيو" الشهير</li>
+        <li>ناديان</li>
+        <li>الإقامة في الفنادق</li>
+        <li>المطاعم والمقاهي</li>
+        <li>متجر المحترفين</li>
+        <li>ساحة تدريب مضاءة بالأضواء الكاشفة</li>
+        <li>دروس الجولف</li>
+        <li>التدريب الرقمي</li>
+        <li>خدمة المساعدة على حمل أدوات الجولف</li>
+    </ul>
+</section>
+
+<section id="packages">
+<h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; الحزم المخّصصة</h2>
+  <div class="packages">
+<div class="package"><img src="https://png.pngtree.com/thumb_back/fw800/background/20230805/pngtree-an-image-of-a-person-hitting-a-golf-ball-image_12960148.jpg" alt="صورة لشخص يضرب كرة الجولف, بندقية Gapyeong, Gyeonggi تفعل, جولف صورة ..."/>
+    <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; أستراحة استجمام</h3>
+        <p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;إقامة لليلة واحدة مع وجبة إفطار كاملة</p>
+        <p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; تناول العشاء في أي من مطاعم المنتجع </p>
+        <p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; الوصول إلى المالعب تطبق الرسوم ويستبعد ملعب سي فيو</p>
+        <p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; تأجير نادي مجاني</p>
+<h3>&nbsp;</h3>
+</div>
+<div class="package"><img src="https://img.soutalomma.com/ArticleImgs/2020/11/20/56777-1.jpg" alt="انطلاق أول بطولة في نادي جولف مدينتي (صور) | صوت الأمة"/>
+  <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;الجولة الثالثية</h3>
+  <p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; إقامة لمدة ليلتين في غرفة مزدوجة مع وجبة الافطار</p>
+<p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ثلاث جولات - 18 حفرة</p>
+<p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; تأجير مجاني للعربات</p>
+<p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; خصم %20 لمتجر المحترفين</p>
+<h3>&nbsp;</h3>
+</div>
+<div class="package"><img src="https://png.pngtree.com/thumb_back/fh260/background/20230924/pngtree-golf-ball-in-hole-on-green-image_13355984.jpg" alt="ملعب جولف 4 حفر في اليابان زن ريو, جيونجي دو, دقة عالية, جولف صورة ..."/>
+  <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;خمس جولات</h3>
+  <p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;اقامة كاملة لمدة خمس ليا ٍل في جناح فاخر&nbsp;</p>
+  <p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;خمس جوالت - 18 حفرة</p>
+  <p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;رجولة واحدة مضمونة في ملعب "سي فيو" الشهي &nbsp;</p>
+  <p class="mb-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; جلسة تدريب رقمية مجانية</p>
+</div>
+</div>
+	</section>
+	<section id="package">
+<h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;الملاعب</h3>
+<div class="list-group">
+        <a class="list-group-item disabled">
+        <h5 class="mb-1">مطار فارو</h5>
+            <img src="https://i0.wp.com/golfreviewsguide.com/wp-content/uploads/2023/03/Dom-Pedro-Old-Course-Featured.png?resize=300%2C300&ssl=1" alt="البحث في الشريط الجانبي"/>
+            <p class="mb-1">يعد مطار فارو وجهة شهيرة للمسافرين من جميع أنحاء أوروبا ، حيث تقدم العديد من شركات الطيران منخفضة التكلفة رحلات جوية من محاور المطارات الرئيسية. هنا أفضل ملاعب الجولف على بعد 30 دقيقة من مطار فارو. إذا كنت من عشاق الجولف ، فسيسعدك معرفة أن هناك الكثير من الدورات التدريبية الرائعة على بعد 30 دقيقة بالسيارة من المطار. لذلك يمكنك قضاء وقت أقل في السفر ووقت أكثر في اللعب. في هذا الدليل ، سنوضح لك مكان الإقامة وأين تلعب لقضاء عطلة رائعة لممارسة الجولف في الغارف</p>
+        </a>
+        <a class="list-group-item disabled">
+            <h5 class="mb-1">دوم بيدرو فيكتوريا - فيلامورا</h5>
+            <img src="https://i0.wp.com/golfreviewsguide.com/wp-content/uploads/2023/03/Dom-Pedro-Victoria-Course-2.jpg?resize=300%2C300&ssl=1" alt="دورة دوم بيدرو فيكتوريا"/>
+            <p class="mb-1">Dom Pedro Victoria هو ملعب الجولف الأول لمجموعة Dom Pedro Group. تم تصميم ملعب البطولة هذا من قبل الأسطوري أرنولد بالمر ، وهو معروف بممراته المفتوحة على مصراعيها وخضره الصعبة.</p>
+            <p class="mb-1">تستضيف بطولة Portugal Masters كل عام ، وتوفر هذه الدورة تحديًا كبيرًا للاعبي الجولف من جميع المستويات.</p>
+            <p class="mb-1">تم تصنيف بعض الثقوب في هذه الدورة من بين الأصعب في أوروبا ، لكن الممرات المفتوحة على مصراعيها والخضرة الكبيرة تجعل من الممكن تسجيل نقاط منخفضة إذا لعبت أوراقك بشكل صحيح.</p>
+        </a><a class="list-group-item disabled">
+        <h5 class="mb-1">&nbsp;"سي فيو "</h5>
+<img src="https://png.pngtree.com/thumb_back/fh260/background/20230801/pngtree-golf-course-with-a-blue-sky-in-sky-image_12960290.jpg" alt="ملعب للجولف مع سماء زرقاء في السماء, جولف, درس لتعليم الجولف, غيم صورة ..."/>
+        <p class="mb-1">احد الملعب الشهيره في البرتغال و يتوفر في الاشتركات الموجوده في هول ان ون&nbsp;<br>
+        </p>
+        </a>
+    </div>
+		</section>
+<section id="packag">
+<h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;النوادي</h3>
+    <div class="packages">
+        <div class="package"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/9f/69/d3/photo0jpg.jpg?w=900&h=500&s=1"/>
+            <h3>‪Praia Fluvial de Cardigos‬</h3>
+      </div>
+        <div class="package">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/20/af/12/b0/purobeach-poolside.jpg?w=900&h=500&s=1"/>
+            <h3>‪Purobeach Poolside‬</h3>
+        </div>
+		
+</div>
+	</section>
+<section id="package6">
+    <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;الفنادق</h3>
+    <div class="jumbotron">
+      <h1 class="display-4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; الفندق الاول: بيت ضيافة بورتو ميوزيك</h1>
+        <img src="https://www.omallqura.com/wp-content/uploads/2019/09/%D8%AC%D8%AC.jpg" alt="افضل الفنادق البرتغال"/>
+        <hr class="my-4">
+        <h1 class="display-4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;الفندق الثاني: فندق ماي أورينتي</h1>
+        <img src="https://www.omallqura.com/wp-content/uploads/2019/09/%D9%84%D8%B4%D8%A8%D9%88%D9%86%D8%A9-%D9%84%D8%B4%D8%A8%D9%88%D9%86%D8%A9-1.jpg" alt="فنادق"/>
+      <h1 class="display-4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  الفندق الثالث: فنادق مدينة ماديرا</h1>
+        <img src="https://www.omallqura.com/wp-content/uploads/2019/09/%D9%81%D9%86%D8%A7%D8%AF%D9%82-%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84-%D9%85%D8%A7%D8%AF%D9%8A%D8%B1%D8%A7.jpg" alt="افضل الفنادق في البرتغال"/>
+    </div>
+<section id="package7">
+    <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  المطاعم والمقاهي</h3>
+  <div class="packages">
+        <div class="package">
+            <h3><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/65/e2/39/lights-will-guide-you.jpg?w=400&h=300&s=1" alt="'Lights will guide you home' | Coldplay"/></h3>
+            <h3>Cúmplice Steakhouse and Bar</h3>
+        </div>
+        <div class="package">
+            <h3><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/a4/fa/cb/local.jpg?w=400&h=300&s=1" alt="local"/></h3>
+            <h3>Ora Viva Restaurante</h3>
+        </div>
+        <div class="package">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/c0/27/bd/live-performing.jpg?w=400&h=300&s=1"/>
+            <h3>Rua- Tapas &amp; Music Bar</h3>
+        </div>
+</div>
+	</section>
+<section id="servics">
+  <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;متجر للمحترفين&nbsp;</h3>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;يحتوي هذا&nbsp; المتجر على منتجات&nbsp; تخص القولف و من الاشياء الموجودا في هذا المتجر&nbsp;</p>
+  <div class="packages">
+    <div class="package">
+      <h3>المنتج الثالث</h3>
+      <img src="https://m.media-amazon.com/images/I/610TxQ+C7KL._AC_SL1001_.jpg"/>
+      
+      <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; اغطية رأس</h3>
+</div>
+    <div class="package">
+      <h3>‪المنتج الثاني</h3>
+      <img src="https://m.media-amazon.com/images/I/61aEpCpB30L._AC_SL1500_.jpg"/>
+      
+      <h3>&nbsp; &nbsp; &nbsp; كرات جولف نودل 2024</h3>
+</div>
+    <div class="package">
+      <h3>‪المنتج الأول &nbsp;</h3>
+      <img src="https://sakidorico.s3.amazonaws.com/wp/wp-content/uploads/2023/12/656eb8a4a7bf4-300x300.jpg" alt="【2023年版】アイアンのおすすめ22選。ゴルフ初心者におすすめのアイテムも"/>
+      <h3>مضرب جولف حديد   تايلور مايد</h3>
+</div>
+  </div>
+  </section>
+  <div class="packages">
+<div class="packages"> </div>
+  </div>
+</section>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
